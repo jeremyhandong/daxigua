@@ -2808,8 +2808,8 @@
         }
       ],
       "_useOriginalSize": false,
-      "_string": "游 戏 结 束",
-      "_N$string": "游 戏 结 束",
+      "_string": "合成美少女结束",
+      "_N$string": "合成美少女结束",
       "_fontSize": 70,
       "_lineHeight": 80,
       "_N$horizontalAlign": 1,
@@ -2861,8 +2861,8 @@
         }
       ],
       "_useOriginalSize": false,
-      "_string": "点击查看成绩",
-      "_N$string": "点击查看成绩",
+      "_string": "点击查看画稿进度",
+      "_N$string": "点击查看画稿进度",
       "_N$horizontalAlign": 1,
       "_N$verticalAlign": 1
     },
@@ -6642,8 +6642,8 @@
           "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
         }
       ],
-      "_string": "击败了全球1%玩家",
-      "_N$string": "击败了全球1%玩家",
+      "_string": "恋爱长跑已完成1%",
+      "_N$string": "恋爱长跑已完成1%",
       "_fontSize": 35,
       "_N$horizontalAlign": 1,
       "_N$verticalAlign": 1,

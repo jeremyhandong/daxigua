@@ -3476,7 +3476,7 @@ window.__require = function e(t, n, o) {
           && this.endCtrl
           && 0 == this.endOne
           && this.testEndDJS > 3
-          && wuDi) { // 无敌模式
+          ) { // 无敌模式
             a.default.GameUpdateCtrl = !1, a.default.playerTouch = !1;
             for (var n = 0; n < cc.find("Canvas/fruitNode").children.length; n++) cc.find("Canvas/fruitNode").children[n].removeComponent(cc.PhysicsCircleCollider), cc.find("Canvas/fruitNode").children[n].removeComponent(cc.RigidBody);
             this.node.color = cc.Color.RED, cc.tween(this.node).to(.3, {
@@ -3602,7 +3602,7 @@ window.__require = function e(t, n, o) {
         maxScoreText: cc.Label
       },
       onLoad: function () {
-        this.bgLayer.color = cc.color("#68b951"), this.standardScore = c.standScore, this.game_max_score = 200, this.rigthBtnGameName = null, this.rightBtnGameUrl = null, this.UIPosChange(), this.addClickBtns();
+        this.bgLayer.color = cc.color("#68b951"), this.standardScore = c.standScore, this.game_max_score = 20, this.rigthBtnGameName = null, this.rightBtnGameUrl = null, this.UIPosChange(), this.addClickBtns();
         var e = "\u6700\u9ad8\u7eaa\u5f55:",
           t = this.returnCurrentLanType();
         e = 1 == t ? "\u6700\u9ad8\u7eaa\u5f55:" : 2 == t ? "\u6700\u9ad8\u7d00\u9304:" : 4 == t ? "\ucd5c\uace0 \uae30\ub85d:" : "Highest Record:";
@@ -3700,7 +3700,7 @@ window.__require = function e(t, n, o) {
           n = "I got in the game in " + e + " points, beating out " + (Math.floor(12 * (e - this.standardScore) / (c - this.standardScore)) + 80) + "% of global players\uff01"
         } else if (e > c && e <= a) {
           n = "I got in the game in " + e + " points, beating out " + (Math.floor(7 * (e - c) / (a - c)) + 92) + "% of global players\uff01"
-        } else if (e > a && e <= i) n = "I got in the game in " + e + " points, beating out 99% of global players\uff01";
+        } else if (e > a && e <= i) n = "I got in the game in " + e + " points, beating out 100% of global players\uff01";
         else if (e > i && e < this.game_max_score) {
           n = "I got " + e + " points in the game, it said to be the world's only " + (20 - Math.ceil(17 * (e - i) / (this.game_max_score - i))) + " people to reach this level! Have you?"
         }
